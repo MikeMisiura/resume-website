@@ -1,4 +1,92 @@
+* {
+    font-size: 1em;
+}
+
+.listTitle,
+#hAdvice,
+#adviceLoc {
+    text-align: center;
+}
+
+body,
+nav {
+    background-color: rgb(230, 177, 126);
+}
+
+.intro {
+    background-color: rgb(197, 110, 51);
+}
+
+.greeting {
+    margin: 11px;
+}
+
+#myName {
+    font-size: 3.5rem;
+    font-weight: 300;
+    width: calc(100% - 22px);
+}
+
+#myName:hover {
+    font-size: 3.6rem;
+    font-weight: 350;
+}
+
+#myTitle {
+    font-size: 2.5rem;
+    font-weight: 200;
+    width: calc(100% - 22px);
+}
+
+#myTitle:hover {
+    font-size: 2.6rem;
+    font-weight: 250;
+}
+
+#myGreeting {
+    width: calc(100% - 22px);
+
+}
+
+#portrait {
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    width: 100%;
+    margin: 11px;
+}
+
+.line {
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#technicalSkills,
+#softSkills,
+#hobbies {
+    background-color: rgb(230, 177, 126);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#technicalSkills:hover,
+#softSkills:hover,
+#hobbies:hover {
+    background-color: rgb(136, 61, 26);
+    color: rgb(230, 177, 126);
+}
+
+.skills {
+    margin: 15px;
+}
+
 #logo {
-    height: 75px;
-    /* : 100% */
+    margin: auto;
+}
+
+#logo:hover {
+    transform: scale(1.1);
 }
